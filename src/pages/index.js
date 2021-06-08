@@ -29,6 +29,7 @@ const sanityShopImageConfig = {
 const houseWebp = `image-119072b0ced4e6169338c861288db5bf2d3d7283-1536x1024-webp`;
 
 const brexWp = 'image-4c279d6eb8943f06061eeccf813f430186e4c19b-1298x826-webp';
+
 const imageData = getGatsbyImageData(brexWp, {width: 800}, sanityImageConfig);
 const shopImageData = getGatsbyImageData(houseWebp, {width: 800}, sanityShopImageConfig);
 
